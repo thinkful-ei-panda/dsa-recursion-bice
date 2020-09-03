@@ -21,9 +21,9 @@ const countSheep=sheep=>{
 	
 	else{console.log('All sheep jumped over the fence');}
 
-	return (sheep>1) ? countSheep(sheep-1) : sheep; 
+	return sheep>1 ? countSheep(sheep-1) : sheep; 
 }
-
+// useful for eliminating confusing debugger output
 countSheep(6)
 
-//debugger
+debugger

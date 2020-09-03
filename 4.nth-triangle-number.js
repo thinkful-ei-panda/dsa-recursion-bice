@@ -11,4 +11,10 @@ const nthTriangleNumber2=n=>{
 	}
 }
 
+const nthTriangleNumber3=n=>{
+	return n<=1 ? n : n+nthTriangleNumber3(n-1);
+};
+
+console.log(nthTriangleNumber3(6));
+
 debugger

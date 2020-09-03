@@ -17,7 +17,7 @@ function powerCalculator1(base,exponent){
 	}
 }
 
-function powerCalculator2(base,exponent){
+const powerCalculator2=(base,exponent)=>{
 	if(exponent===2){
 		base*=base;
 		console.log(base);
@@ -28,5 +28,7 @@ function powerCalculator2(base,exponent){
 	console.log(base);
 	powerCalculator2(base,exponent)
 }
+
+powerCalculator2(10,4);
 
 debugger
